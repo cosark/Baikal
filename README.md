@@ -28,6 +28,14 @@ Or run them against all databases with Docker:
 
     docker compose -f tests/compose.yml run --rm tests
 
+One-Click Deploy
+----------------
+
+<a href="https://repocloud.io/details/Baikal/"><img src="https://d16t0pc4846x52.cloudfront.net/deploylobe.svg" alt="Deploy on RepoCloud" height="42"></a>
+<a href="https://railway.com/deploy/baikal"><img src="https://railway.com/button.svg" alt="Deploy on Railway" height="42"></a>
+
+Railway: set `BAIKAL_ADMIN_PASSWORD` when you deploy; it becomes the admin account password, as the [template page](https://railway.com/deploy/baikal) explains.
+
 Credits
 -------
 
